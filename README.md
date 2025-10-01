@@ -62,15 +62,6 @@ You should have Python 3 (>= 3.7) and the following libraries installed (you can
 
 ---
 
-## Results & Performance
-
-| Metric         | Value (example) |
-|----------------|-----------------|
-| Weighted F1    | 0.xx            |
-| Precision       | 0.xx            |
-| Recall          | 0.xx            |
-| Accuracy        | 0.xx            |
-
 > *Note: Your actual results may vary depending on data splits, hyperparameters, and augmentations.*
 
 You can also include sample images: one with correct detection, one with false positive/negative, etc.
