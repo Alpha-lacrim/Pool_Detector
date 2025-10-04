@@ -1,4 +1,4 @@
-# Pool Detector (Villa Image Pool Classification)
+# Villa Pool Image Classifier
 
 This repository contains a Jupyter notebook (`Pool_Detector.ipynb`) that implements a model to **detect whether a villa image contains a swimming pool or not**. The problem was part of the **“استخرمون نشه؟ (Let it not be our pool?)”** problemset in the Quera Technology Olympic. :contentReference[oaicite:0]{index=0}
 
