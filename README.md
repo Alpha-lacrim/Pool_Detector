@@ -1,6 +1,6 @@
 # Villa Pool Image Classifier
 
-This repository contains a Jupyter notebook (`Pool_Detector.ipynb`) that implements a model to **detect whether a villa image contains a swimming pool or not**. The problem was part of the **“استخرمون نشه؟ (EstakhremonNasheh?)”** problemset in the Quera Technology Olympic. [EstakhremonNashe Quera](https://quera.org/problemset/251285)
+This repository contains a Jupyter notebook (`Pool_Detector.ipynb`) that implements a model to **detect whether a villa image contains a swimming pool or not**. The problem was part of the **“استخرمون نشه؟ (EstakhremonNasheh?)”** problemset in the Quera Technology Olympic. [EstakhremonNashe Content Refrence](https://quera.org/problemset/251285)
 
 
 ---
@@ -13,7 +13,7 @@ Key points:
 
 - Input images are **not** satellite / overhead images, but normal villa photos (exteriors, angles, pool-level shots).  
 - Combination of **image processing / computer vision techniques** + **deep neural network** (using Keras / TensorFlow).  
-- The model is evaluated using **weighted F1 score** (minimum threshold: 0.4) per the problem specification. :contentReference[oaicite:1]{index=1}  
+- The model is evaluated using **weighted F1 score** (minimum threshold: 0.4) per the problem specification.
 - This is a challenge / competition-style problem, so the notebook includes experiments, preprocessing steps, training, evaluation, and inference code.
 
 ---
