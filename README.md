@@ -5,7 +5,7 @@ This repository contains a Jupyter notebook (`Pool_Detector.ipynb`) that impleme
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 When evaluating vacation lodging listings (e.g. villas, resorts), one desirable feature is the presence of a swimming pool. The goal of this project is to build a pipeline that — given one or more images of a villa — predicts whether a pool is present.
 
@@ -32,11 +32,10 @@ Here’s a summary of what’s implemented in the notebook:
 
 ---
 
-## Setup & Usage
 
 ### Requirements
 
-You should have Python 3 (>= 3.7) and the following libraries installed (you can use a `requirements.txt` or `pip install`):
+You should have Python 3 (>= 3.7) and the following libraries installed:
 
 - tensorflow  
 - keras  
@@ -46,28 +45,4 @@ You should have Python 3 (>= 3.7) and the following libraries installed (you can
 - scikit-learn  
 - pandas  
 
-### Running the Notebook
-
-1. Clone this repository  
-2. Install dependencies  
-3. Open `Pool_Detector.ipynb` in Jupyter / JupyterLab / Google Colab  
-4. Follow the cells in order: data loading → preprocessing → model training → evaluation → inference  
-5. At the end, run the result-producing cell so that `result.zip` is generated (as required by the original problem).  
-
-### Tips & Cards
-
-- You may want to enable GPU acceleration (if available) for training speed  
-- Use early stopping, learning-rate scheduling, or model checkpoints for better performance  
-- Visualize misclassified examples to help debug tricky cases  
-- Experiment with architectures or adding attention / segmentation modules
-
----
-
-> *Note: Your actual results may vary depending on data splits, hyperparameters, and augmentations.*
-
-You can also include sample images: one with correct detection, one with false positive/negative, etc.
-
----
-
-## Project Structure
 
